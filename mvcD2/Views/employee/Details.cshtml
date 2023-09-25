@@ -1,13 +1,22 @@
 ﻿
+@model Employee
+
 @{
     Layout = null;
 }
+<div class="card text-center">
+ <h1> Course Details </h1>
+    <ul class="list-group list-group-flush">
+        <br />
+        <li class="list-group-item"> ID : @Model.Id </li>
+        <li class="list-group-item"> Name : @Model.Name </li>
+        <li class="list-group-item"> Email : @Model.email </li>
+        <li class="list-group-item">Address : @Model.Address </li>
+        <li class="list-group-item">Salary : @Model.Salary </li>
+            @if(Model.office_id >0){
+        <li class="list-group-item"> Office_Name : @Model.Office.Name </li>
+}
+    </ul>
 
-<h1> Employee with id @Model.Id</h1>
-<br />
-<p> ID : @Model.Id</p>
-<p> Name : @Model.Name</p>
-<p> Email : @Model.email</p>
-<p> Address : @Model.Address</p>
-<p> Salary : @Model.Salary</p>
-<p> Office_id : @Model.office_id</p>
+</div>
+    

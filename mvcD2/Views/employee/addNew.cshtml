@@ -26,9 +26,23 @@
     <input type="text" id="email" name="email" />
     <br />
 
+    <label for="Salary">Salary</label>
+    <input type="text" id="Salary" name="Salary" />
+    <br />
+
 
     <label for="password">Password</label>
     <input type="text" id="password" name="password" />
+    <br />
+
+    <label for="office_id">Office_Name</label>
+     <select name="office_id" form="office_id" >
+
+        @foreach(Office off in ViewBag.Off){
+           <option value="@off.Id"> @off.Name </option>
+ 
+         }
+     </select>
     <br />
     <input type="submit" value="Add" />
 </Form>

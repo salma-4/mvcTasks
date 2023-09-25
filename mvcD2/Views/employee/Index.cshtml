@@ -7,22 +7,23 @@
    <hr />
    <h2><a href="/Employee/addNew">ADD NEW EMPLOYEE</a></h2>
    <hr />
-   <table style="border:2px solid black; length =120px;">
-    <tr style ="border:2px solid black;">
-        <th style ="border:2px solid black;">*</th>
-        <th style="border:2px solid black;">ID</th>
-        <th style="border:2px solid black;">NAME</th>
-        <th style="border:2px solid black;">details</th>
+   <table class="table table-striped-columns table-primary">
+       <tr >
+           <th scope="col">*</th>
+           <th scope="col">ID</th>
+           <th scope="col">NAME</th>
+           <th scope="col">details</th>
        </tr>
-         @foreach(Employee emp in Model)
+       @foreach(Employee emp in Model)
          {
 
-        <tr style ="border:2px solid black;">
+       <tr >
 
-            <td style="border:2px solid black;">@(indx++)</td>
-            <td style="border:2px solid black;">@emp.Id </td>
-            <td style="border:2px solid black;">@emp.Name</td>
-            <td style="border:2px solid black;"><a href="/Employee/Details/@emp.Id">Details</a></td>
-        </tr>
+           <td scope="row" >@(indx++)</td>
+           <td >@emp.Id </td>
+           <td>@emp.Name</td>
+           <td><a href="/Employee/Details/@emp.Id">Details</a> | <a href="Employee/Edit/@emp.Id"> Edit</a> | <a href="/Employee/Delete/@emp.Id">Delete</a></td>
+       </tr>
          }
 
+    
