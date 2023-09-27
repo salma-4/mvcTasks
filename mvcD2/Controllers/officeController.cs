@@ -41,7 +41,7 @@ namespace mvcD2.Controllers
         public IActionResult Edit(int id)
         {
            Office off= db.Offices.SingleOrDefault(n => n.Id == id);
-            ViewBag.Office = db.Offices.ToList();
+           // ViewBag.Office = db.Offices.ToList();
             return View("Edit",off);
         }
         public IActionResult EditInDB(Office office)
@@ -55,7 +55,18 @@ namespace mvcD2.Controllers
         }
         public IActionResult Delete(int id)
         {
-           
+           Office off = db.Offices.SingleOrDefault(o => o.Id == id);
+            var emp = db.Employees.SingleOrDefault(n=>n.office_id==id);
+            if (emp == null)
+            {
+                db.Offices.Remove(off);
+                db.SaveChanges();
+            }
+            else
+            {
+                emp.office_id = null;
+                db.SaveChanges();
+            }
             return RedirectToAction("Index");
         }
     }

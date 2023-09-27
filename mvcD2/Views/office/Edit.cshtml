@@ -1,0 +1,20 @@
+﻿
+ @model Office
+ @{
+
+ }
+<h1>Edit</h1>
+
+<form asp-controller="Office" asp-action="Edit" >
+    <input asp-for="Id" hidden />
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input class="form-control" asp-for="Name">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Location" class="form-label"></label>
+        <input class="form-control" asp-for="Location">
+    </div>
+    <button type="submit" class="btn btn-primary">Edit</button>
+
+    </form>
