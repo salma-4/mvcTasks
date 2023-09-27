@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jYlznKgZP6yzT/3e7B3sd1i/w2hNzga6hhk+MJPp+WadohcT17mrBW18M1zVz3SbQI5kJw3moydl9axbMki54g==",
+  "dgSpecHash": "Z7Q8gTRfKejEQN4gEEY/8UsI9ajPGWV0jlygTaEZW2F1ZTwPeqgNgfTAeWbV+QKk6OUTHZkQLT8BQ5mDkq7teg==",
   "success": true,
-  "projectFilePath": "E:\\dot\\atmProject\\iti\\day01\\mvcD2\\mvcD2.csproj",
+  "projectFilePath": "E:\\dot\\atmProject\\iti\\day01\\mvcTasks\\mvcD2\\mvcD2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ascom\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ascom\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

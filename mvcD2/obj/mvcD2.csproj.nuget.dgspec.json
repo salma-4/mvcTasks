@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dot\\atmProject\\iti\\day01\\mvcD2\\mvcD2.csproj": {}
+    "E:\\dot\\atmProject\\iti\\day01\\mvcTasks\\mvcD2\\mvcD2.csproj": {}
   },
   "projects": {
-    "E:\\dot\\atmProject\\iti\\day01\\mvcD2\\mvcD2.csproj": {
+    "E:\\dot\\atmProject\\iti\\day01\\mvcTasks\\mvcD2\\mvcD2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dot\\atmProject\\iti\\day01\\mvcD2\\mvcD2.csproj",
+        "projectUniqueName": "E:\\dot\\atmProject\\iti\\day01\\mvcTasks\\mvcD2\\mvcD2.csproj",
         "projectName": "mvcD2",
-        "projectPath": "E:\\dot\\atmProject\\iti\\day01\\mvcD2\\mvcD2.csproj",
+        "projectPath": "E:\\dot\\atmProject\\iti\\day01\\mvcTasks\\mvcD2\\mvcD2.csproj",
         "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
-        "outputPath": "E:\\dot\\atmProject\\iti\\day01\\mvcD2\\obj\\",
+        "outputPath": "E:\\dot\\atmProject\\iti\\day01\\mvcTasks\\mvcD2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
