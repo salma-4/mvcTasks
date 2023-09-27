@@ -1,11 +1,11 @@
 ﻿
  @model Office
  @{
-
+    ViewData["Title"] = "Edit";
  }
 <h1>Edit</h1>
 
-<form asp-controller="Office" asp-action="Edit" >
+<form asp-controller="Office" asp-action="EditInDB" >
     <input asp-for="Id" hidden />
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
@@ -15,6 +15,6 @@
         <label asp-for="Location" class="form-label"></label>
         <input class="form-control" asp-for="Location">
     </div>
-    <button type="submit" class="btn btn-primary">Edit</button>
+    <input type="submit" class="btn btn-primary">
 
     </form>

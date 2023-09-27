@@ -8,7 +8,7 @@
 
 <h1>EDIT EMPLOYEE</h1>
 
-<form action="/Employee/EditInDB" method="post">
+<form asp-controller="Employee" asp-action="EditInDB" method="post">
     <div class="form-group">
         <label for="Id">ID</label>
         <input type="text" id="Id" name="Id" value="@Model.Id" class="form-control" readonly />
