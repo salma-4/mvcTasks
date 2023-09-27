@@ -7,13 +7,22 @@
 @{
     int indx = 1;
 }
+<style>
+    table{
+     height:150px;
+     align-content:center;
+     align-items:center;
+    }
+</style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<h1> Offices data**** </h1>
+<br>
+<h2 ><a href="/Office/addNew" class="btn btn-primary p-1 " role="button">ADD NEW Office</a></h2>
 <hr />
-<h2><a href="/Office/addNew">ADD NEW Office</a></h2>
-<hr />
-<table class="table table-striped-columns table-primary">
+
+<h1 class="text-center" > Offices data**** </h1>
+<div class="text-center ">
+    <table class="table table-striped table-primary w-75 m-4 ">
     <tr>
         <th scope="col">*</th>
         <th scope="col">ID</th>
@@ -29,3 +38,5 @@
             <td><a href="/Office/Details/@off.Id">Details</a> | <a href="/Office/Edit/@off.Id"> Edit</a> | <a href="/Office/Delete/@off.Id">Delete</a></td>
         </tr>
     }
+    </table>
+    </div>

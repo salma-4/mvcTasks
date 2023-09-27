@@ -841,3 +841,4 @@ E:\dot\atmProject\iti\day01\mvcTasks\mvcD2\obj\Debug\net7.0\refint\mvcD2.dll
 E:\dot\atmProject\iti\day01\mvcTasks\mvcD2\obj\Debug\net7.0\mvcD2.pdb
 E:\dot\atmProject\iti\day01\mvcTasks\mvcD2\obj\Debug\net7.0\mvcD2.genruntimeconfig.cache
 E:\dot\atmProject\iti\day01\mvcTasks\mvcD2\obj\Debug\net7.0\ref\mvcD2.dll
+E:\dot\atmProject\iti\day01\mvcTasks\mvcD2\bin\Debug\net7.0\libman.json
