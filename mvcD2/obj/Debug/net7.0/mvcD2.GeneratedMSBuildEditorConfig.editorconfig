@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\dot\atmProject\iti\day01\mvcTasks\mvcD2
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/dot/atmProject/iti/day01/mvcTasks/mvcD2/Views/employeeValidation/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVWYWxpZGF0aW9uXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/dot/atmProject/iti/day01/mvcTasks/mvcD2/Views/employee/addNew.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZW1wbG95ZWVcYWRkTmV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,6 +1,8 @@
-﻿
+﻿@model List<Employee>
+
 @{
-   int indx = 1;
+    ViewData["Title"] = "Index";
+    int index = 0;
 }
 
 
@@ -8,6 +10,8 @@
    <h1>Employees data**** </h1>
    <hr />
 <h2><a href="/Employee/addNew" class="btn btn-primary" role="button" >ADD NEW EMPLOYEE</a></h2>
+<h2><a asp-controller="employeeValidation" asp-action="Add" class="btn btn-primary" role="button">ADD NEW EMPLOYEE</a></h2>
+
    <hr />
    <table class="table table-striped table-primary">
        <tr >
